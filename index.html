@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -40,7 +44,7 @@
                 <div class="container">
                     <h1 class="hero-title">Let's Create Your Dream Interior</h1>
                     <p class="hero-desc">The world needs innovators and problem solvers who turn challenges into greater opportunities.</p>
-                    <button type="button" class="hero-button">Get Started <img src="" alt=""></button>
+                    <button type="button" class="hero-button"> <span class="hero-button-name">Get Started</span> <img src="./image/button_arrow_light.png" alt="arrow" class="hero-button-img"></button>
                 </div>
             </section>
 
@@ -78,7 +82,7 @@
                     <img src="./image/call.png" alt="call" class="number-img">
                     <p class="contact-number">012345678</p>
                     <p class="number-desc">Call Us Anytime</p>
-                    <button type="button" class="contact-button">Get Free Estimate</button>
+                    <button type="button" class="contact-button"> <span class="contacts-name">Get Free Estimate</span> <img src="./image/button_arrow_light.png" alt="arrow" class="contacts-img"></button>
                     <img src="./image/kitchen.jpg" alt="photo of kitchen" class="contact-img">
                 </div>
             </section>
@@ -183,47 +187,48 @@
 
         <!-- blogs -->
             <section class="blog">
-                <h2 class="blog-title">Recent Blogs</h2>
-                <p class="blog-desc">Get updates about our latest trends and techniques used in interior design project works.</p>
-                <ul class="blog-list">
-                    <li class="blog-item">
-                        <img src="" alt="" class="blog-img">
-                        <h3>Residential Interior Designer In New York, USA</h3>
-                        <p>November 23, 2021</p>
-                        <img src="./image/arrow.png" alt="arrow">
-                    </li>
-                    <li class="blog-item">
-                        <img src="" alt="" class="blog-img">
-                        <h3>How To Choose The Best Wall Art & Decor House?</h3>
-                        <p>November 23, 2021</p>
-                        <img src="./image/arrow.png" alt="arrow">
-                    </li>
-                    <li class="blog-item">
-                        <img src="" alt="" class="blog-img">
-                        <h3>Tips To Increase The Interior Value Of Your House</h3>
-                        <p>November 23, 2021</p>
-                        <img src="./image/arrow.png" alt="arrow">
-                    </li>
-                    <li class="blog-item">
-                        <img src="" alt="" class="blog-img">
-                        <h3>Best Solution For Any Office & Business Interior</h3>
-                        <p>November 23, 2021</p>
-                        <img src="./image/arrow.png" alt="arrow">
-                    </li>
-                    <li class="blog-item">
-                        <img src="" alt="" class="blog-img">
-                        <h3>Get Solution For Building Construction Work</h3>
-                        <p>November 23, 2021</p>
-                        <img src="./image/arrow.png" alt="arrow">
-                    </li>
-                    <li class="blog-item">
-                        <img src="" alt="" class="blog-img">
-                        <h3>Attain The Best Finish For The Kitchen Cabinets</h3>
-                        <p>November 23, 2021</p>
-                        <img src="./image/arrow.png" alt="arrow">
-                    </li>
-                </ul>
-
+                <div class="container">
+                    <h2 class="blog-title">Recent Blogs</h2>
+                    <p class="blog-desc">Get updates about our latest trends and techniques used in interior design project works.</p>
+                    <ul class="blog-list">
+                        <li class="blog-item">
+                            <img src="./image/residental_design.jpg" alt="kitchen" class="blog-img">
+                            <h3 class="blogs-title">Residential Interior Designer In New York, USA</h3>
+                            <p class="blogs-desc">November 23, 2021</p>
+                            <img src="./image/arrow.png" alt="arrow" class="blogs-img">
+                        </li>
+                        <li class="blog-item">
+                            <img src="./image/best_wall.jpg" alt="kitchen" class="blog-img">
+                            <h3 class="blogs-title">How To Choose The Best Wall Art & Decor House?</h3>
+                            <p class="blogs-desc">November 23, 2021</p>
+                            <img src="./image/arrow.png" alt="arrow" class="blogs-img">
+                        </li>
+                        <li class="blog-item">
+                            <img src="./image/tips.jpg" alt="kitchen" class="blog-img">
+                            <h3 class="blogs-title">Tips To Increase The Interior Value Of Your House</h3>
+                            <p class="blogs-desc">November 23, 2021</p>
+                            <img src="./image/arrow.png" alt="arrow" class="blogs-img">
+                        </li>
+                        <li class="blog-item">
+                            <img src="./image/best_solution.jpg" alt="kitchen" class="blog-img">
+                            <h3 class="blogs-title">Best Solution For Any Office & Business Interior</h3>
+                            <p class="blogs-desc">November 23, 2021</p>
+                            <img src="./image/arrow.png" alt="arrow" class="blogs-img">
+                        </li>
+                        <li class="blog-item">
+                            <img src="./image/get_solution.jpg" alt="kitchen" class="blog-img">
+                            <h3>Get Solution For Building Construction Work</h3>
+                            <p class="blogs-desc">November 23, 2021</p>
+                            <img src="./image/arrow.png" alt="arrow" class="blogs-img">
+                        </li>
+                        <li class="blog-item">
+                            <img src="./image/best_finish.jpg" alt="kitchen" class="blog-img">
+                            <h3 class="blogs-title">Attain The Best Finish For The Kitchen Cabinets</h3>
+                            <p class="blogs-desc">November 23, 2021</p>
+                            <img src="./image/arrow.png" alt="arrow" class="blogs-img">
+                        </li>
+                    </ul>
+                </div>
             </section>
 
         <!-- join -->
@@ -231,7 +236,7 @@
                 <div class="container">
                     <h2 class="join-title">Wanna join the interno?</h2>
                     <p class="join-desc">Contact Us & Get a Free Consultation</p>
-                    <button type="button" class="join-button">Connect With us</button>
+                    <button type="button" class="join-button"> <span class="join-name">Connect With us</span> <img src="./image/button_arrow_dark.png" alt="arrow" class="join-img"></button>
                 </div>
             </section>
 
@@ -248,25 +253,26 @@
                 <li class="net-item"><img src="./image/in.png" alt="in" class="net-img"></li>
                 <li class="net-item"><img src="./image/insta.png" alt="instagram" class="net-img"></li>
             </ul>
-
-            <ul class="footer-list">
-                <li class="footer-item1">
-                    <h3 class="footer-title">Pages</h3>
-                    <p class="list-desc1">Style Guide</p>
-                    <p class="list-desc1">Protected</p>
-                    <p class="list-desc1">Licenses</p>
-                    <p class="list-desc1">Changelog</p>
-                    <p class="list-desc1">404</p>
-                </li>
-                <li class="footer-item2">
-                    <h3 class="footer-title">Explore</h3>
-                    <p class="list-desc2">About Us</p>
-                    <p class="list-desc2">Recent Blog</p>
-                    <p class="list-desc2">Pricing Plan</p>
-                    <p class="list-desc2">Our Projects</p>
-                    <p class="list-desc2">Contact Us</p>
-                </li>
-            </ul>
+            <nav class="footer-nav">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <h3 class="footer-title">Pages</h3>
+                        <p class="list-desc1">Style Guide</p>
+                        <p class="list-desc1">Protected</p>
+                        <p class="list-desc1">Licenses</p>
+                        <p class="list-desc1">Changelog</p>
+                        <p class="list-desc1">404</p>
+                    </li>
+                    <li class="footer-item">
+                        <h3 class="footer-title">Explore</h3>
+                        <p class="list-desc2">About Us</p>
+                        <p class="list-desc2">Recent Blog</p>
+                        <p class="list-desc2">Pricing Plan</p>
+                        <p class="list-desc2">Our Projects</p>
+                        <p class="list-desc2">Contact Us</p>
+                    </li>
+                </ul>
+            </nav>
 
             <h3 class="footer-title3">Contact</h3>
             <address class="footer-address">
