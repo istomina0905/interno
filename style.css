@@ -1,3 +1,12 @@
+:root {
+    --base-text: #292F36;
+    --accent: #CDA274;
+    --accent-text: #4D5053;
+    --arrow-stroke: #F4F0EC;
+    --light-text: #FFFFFF;
+    --card-stroke: #E7E7E7;
+    --footer-stroke: #E5E5E5;
+}
 
 
 
@@ -38,3 +47,334 @@ img{
 
 /* font-family: "DM Serif Display", serif;
 font-family: "Jost", sans-serif; */
+
+/* header */
+
+.nav-item {
+color: var(--base-text);
+font-family: "Jost", sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 1.58; 
+letter-spacing: 0.4px;
+}
+
+.hero-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 80px;
+font-weight: 400;
+line-height: 1.2; 
+letter-spacing: 0.22px;
+}
+
+.hero-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.hero-button-name {
+color: var(--light-text);
+font-family: "Jost", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.72px;
+}
+
+
+/* advantage */
+
+.advantage-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 1.56; 
+letter-spacing: 0.22px;
+}
+
+.advantage-desc1 {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.advantage-desc2 {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.36px;
+}
+
+
+/* contacts */
+
+.contact-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 50px;
+font-weight: 400;
+line-height: 1.3; 
+letter-spacing: 0.22px;
+}
+
+.contact-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.contact-number {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.number-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.contacts-name {
+color: var(--light-text);
+font-family: "Jost", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.72px;
+}
+
+
+/* people say */
+ 
+.people-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 45px;
+font-weight: 400;
+line-height: 1.3; 
+letter-spacing: 0.22px;
+}
+
+.say-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.say-desc1 {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.say-desc2 {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+
+/* projects */
+
+.project-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 47px;
+font-weight: 400;
+line-height: 1.34; 
+letter-spacing: 0.22px;
+}
+
+.project-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.projects-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.58; 
+letter-spacing: 0.22px;
+}
+
+.projects-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+
+/* numbers */
+
+.number-desc1 {
+color: var(--accent);
+font-family: "DM Serif Display", serif;
+font-size: 85px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 1.7px;
+}
+
+.number-desc2 {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+
+/* blogs */
+
+.blog-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 48px;
+font-weight: 400;
+line-height: 1.3; 
+letter-spacing: 0.22px;
+}
+
+.blog-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.blogs-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: 0.5px;
+}
+
+.blogs-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+/* join */
+
+.join-title {
+color: var(--light-text);
+font-family: "DM Serif Display", serif;
+font-size: 50px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.join-desc {
+color: var(--light-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.join-name {
+color: var(--light-text);
+font-family: "Jost", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+
+/* footer */
+
+.footer-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.footer-title {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.list-desc {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.footer-title3 {
+color: var(--base-text);
+font-family: "DM Serif Display", serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}
+
+.address-link {
+color: var(--accent-text);
+font-family: "Jost", sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
