@@ -253,7 +253,6 @@ margin-bottom: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .call-container {
@@ -268,11 +267,12 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.22px;
 width: 531px;
+margin-bottom: 40px;
 }
 
 .tel-container {
     display: flex;
-    padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 .contact-number {
@@ -456,11 +456,8 @@ margin-right: 207px;
 
 .project-item {
     width: 590px;
+    flex-basis: calc(100%-20px/2);
     padding-bottom: 60px;
-}
-
-.project-item:nth-child(-n+2) {
-    /* margin-bottom: 60px; */
 }
 
 .projects-img {
