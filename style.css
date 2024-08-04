@@ -80,6 +80,10 @@ line-height: 1.58;
 letter-spacing: 0.4px;
 }
 
+.header-desc:hover {
+    color: var(--accent);
+}
+
 
 /* hero */
 
@@ -240,7 +244,7 @@ text-wrap: nowrap
 }
 
 .contacts-container {
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 .contact-title {
@@ -254,14 +258,15 @@ margin-bottom: 42px;
 }
 
 .contact-container {
-    background-color: var(--arrow-stroke);
-    width: 93px;
-    height: 93px;
-    border-radius: 93px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+background-color: var(--arrow-stroke);
+width: 93px;
+height: 93px;
+border-radius: 93px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
 
 .call-container {
     margin-left: 20px;
@@ -457,6 +462,7 @@ margin-right: 207px;
 
 .project-list {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 70px;
@@ -464,7 +470,7 @@ margin-right: 207px;
 
 .project-item {
     width: 590px;
-    flex-basis: calc(100%-20px/2);
+    flex-basis: ((100%-20px)/2);
     padding-bottom: 60px;
 }
 
@@ -503,6 +509,10 @@ letter-spacing: 0.22px;
     width: 70px;
     height: 70px;
     border-radius: 70px;
+}
+
+.project-button:hover {
+    background-color: var(--accent);
 }
 
 .projects-img2 {
@@ -671,6 +681,10 @@ letter-spacing: 0.22px;
     align-items: center;
 }
 
+.blogs-button:hover {
+    background-color: var(--accent);
+}
+
 
 /* join */
 
@@ -793,6 +807,10 @@ letter-spacing: 0.22px;
 margin-bottom: 30px;
 }
 
+.list-desc:hover {
+color: var(--accent);
+}
+
 .footer-second {
     margin-left: 103px;
 }
@@ -810,6 +828,10 @@ margin-bottom: 22px;
 .address-item {
     margin-bottom: 30px;
 }
+
+.address-link:hover {
+    color: var(--accent);
+    }
 
 .address-item:first-child {
     width: 321px;
