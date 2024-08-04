@@ -37,7 +37,7 @@ img{
 }
 
 .container {
-    /* outline: solid red; */
+    outline: solid red;
     width: 1220px;
     margin: 0 auto;
     padding-left: 10px;
@@ -286,6 +286,7 @@ margin-bottom: 40px;
 .tel-container {
     display: flex;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .contact-number {
@@ -433,7 +434,7 @@ width: 274px;
 /* projects */
 
 .project {
-    padding-bottom: 80px;
+    padding-bottom: 140px;
 }
 
 .project-title {
@@ -464,14 +465,14 @@ margin-right: 207px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    row-gap: 60px;
     flex-wrap: wrap;
     margin-top: 70px;
+    flex-basis: ((100%-20px)/2);
 }
 
 .project-item {
     width: 590px;
-    flex-basis: ((100%-20px)/2);
-    padding-bottom: 60px;
 }
 
 .projects-img {
@@ -621,8 +622,11 @@ margin-right: auto;
 .blog-list {
     display: flex;
     gap: 20px;
+    row-gap: 40px;
     flex-wrap: wrap;
     margin-top: 70px;
+    flex-basis: ((100%-40px)/3);
+    justify-content: space-between;
 }
 
 
@@ -636,7 +640,6 @@ margin-right: auto;
     padding-bottom: 41px;
     padding-right: 21px;
     padding-left: 21px;
-    margin-bottom: 40px;
 }
 
 .blog-img {
@@ -689,7 +692,7 @@ letter-spacing: 0.22px;
 /* join */
 
 .join {
-    padding-top: 100px;
+    padding-top: 141px;
     padding-bottom: 80px;
     text-align: center;
 }
@@ -787,6 +790,12 @@ margin-bottom: 29px;
     margin-left: 83px;
 }
 
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
 .footer-title {
 color: var(--base-text);
 font-family: "DM Serif Display", serif;
@@ -794,7 +803,12 @@ font-size: 25px;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.22px;
-margin-bottom: 40px;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .list-desc {
@@ -804,7 +818,6 @@ font-size: 22px;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.22px;
-margin-bottom: 30px;
 }
 
 .list-desc:hover {
