@@ -790,6 +790,18 @@ margin-bottom: 29px;
     margin-left: 83px;
 }
 
+.footer-list:nth-child(1) {
+    width: 114px;
+}
+
+.footer-list:nth-child(2) {
+    width: 124px;
+}
+
+.footer-list:nth-child(3) {
+    width: 321px;
+}
+
 .footer-item {
     display: flex;
     flex-direction: column;
