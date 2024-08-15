@@ -790,15 +790,15 @@ margin-bottom: 29px;
     margin-left: 83px;
 }
 
-.footer-list:nth-child(1) {
+.footer-item:nth-child(1) {
     width: 120px;
 }
 
-.footer-list:nth-child(2) {
+.footer-item:nth-child(2) {
     width: 130px;
 }
 
-.footer-list:nth-child(3) {
+.footer-item:nth-child(3) {
     width: 330px;
 }
 
