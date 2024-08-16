@@ -206,6 +206,10 @@ text-align: center;
 margin-bottom: 68px;
 }
 
+.advantage-desc1:nth-child(2) {
+    margin-bottom: 35px;
+}
+
 .advantage-desc1:last-child {
     margin-bottom: 35px;
 }
@@ -786,7 +790,7 @@ margin-bottom: 29px;
 
 .footer-list {
     display: flex;
-    gap: 60px;
+    gap: 113px;
     margin-left: 83px;
 }
 
