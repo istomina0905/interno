@@ -45,10 +45,6 @@ img{
 }
 
 
-/* font-family: "DM Serif Display", serif;
-font-family: "Jost", sans-serif; */
-
-
 /* header */
 
 .header {
@@ -137,8 +133,6 @@ padding-bottom: 22px;
 padding-left: 34px;
 padding-right: 20px;
 width: 207px;
-/* width: 207px; */
-/* height: 71px; */
 }
 
 .hero-button-name {
@@ -149,14 +143,9 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.72px;
 margin-right: 21px;
-/* padding-top: 22px;
-padding-bottom: 22px;
-padding-left: 34px;
-padding-right: 21px; */
 }
 
 .hero-button-img {
-    /* padding-right: 20px; */
     width: 26px;
     height: 36px;
 }
@@ -204,6 +193,10 @@ line-height: 1.5;
 letter-spacing: 0.22px;
 text-align: center;
 margin-bottom: 68px;
+}
+
+.advantage-desc1:nth-child(2) {
+    margin-bottom: 35px;
 }
 
 .advantage-desc1:last-child {
@@ -525,8 +518,6 @@ letter-spacing: 0.22px;
 /* numbers */
 
 .number {
-    /* padding-top: 80px;
-    padding-bottom: 130px; */
     background-color: var(--arrow-stroke);
 }
 
@@ -786,8 +777,20 @@ margin-bottom: 29px;
 
 .footer-list {
     display: flex;
-    gap: 60px;
+    gap: 113px;
     margin-left: 83px;
+}
+
+.footer-item:nth-child(1) {
+    width: 114px;
+}
+
+.footer-item:nth-child(2) {
+    width: 121px;
+}
+
+.footer-item:nth-child(3) {
+    width: 321px;
 }
 
 .footer-item {
@@ -831,16 +834,6 @@ color: var(--accent);
 .footer-second {
     margin-left: 103px;
 }
-
-/* .footer-title3 {
-color: var(--base-text);
-font-family: "DM Serif Display", serif;
-font-size: 25px;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.22px;
-margin-bottom: 22px;
-} */
 
 .address-item {
     margin-bottom: 30px;
